@@ -1,0 +1,53 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/relative_layout"
+   >
+
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:textSize="10dp"
+        android:layout_gravity="center"
+        android:text="test Speaker"
+        android:id="@+id/btn_spk"
+        android:onClick="playSoundOnSpeaker"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:textSize="10dp"
+        android:layout_gravity="center"
+        android:text="Front Cam"
+        android:id="@+id/btn_camera_f"
+        android:onClick="frontCameraTest"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:textSize="10dp"
+        android:layout_gravity="center"
+        android:text="Back Cam"
+        android:id="@+id/btn_camera_b"
+        android:onClick="backCameraTest"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:textSize="10dp"
+        android:layout_gravity="center"
+        android:text="Microphone Test"
+        android:id="@+id/btn_microphone_b"
+        android:onClick="OpenMicTest"/>
+
+
+</LinearLayout>
+</RelativeLayout>
