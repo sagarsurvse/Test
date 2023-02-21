@@ -96,7 +96,7 @@ public class MainTest extends Activity {
         cameraTest(CameraManager.BACK_CAMERA);
     }
     public void OpenMicTest(View view) {
-        Intent intent = new Intent(this, MicrophoneTest.class);
+        Intent intent = new Intent(this, VoiceRecActivity.class);
         startActivity(intent);
     }
     private void cameraTest(int cam){
